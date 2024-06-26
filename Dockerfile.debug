@@ -1,0 +1,9 @@
+FROM cactus:latest
+
+LABEL maintainer="joseigorcfm@gmail.com"
+
+WORKDIR /cactus
+
+RUN \
+    apk add --no-cache \
+        gdb

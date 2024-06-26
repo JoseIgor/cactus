@@ -1,0 +1,77 @@
+{
+    "editor.renderWhitespace": "all",
+    "todo-tree.highlights.customHighlight": { // custom highlight for ToDo tree
+        "TODO": {
+            "type": "whole-line",
+            "foreground": "#00ffff",
+            "background": "#006400",
+            "gutterIcon": true,
+            "iconColour": "green",
+        },
+        "FIXME": {
+            "type": "whole-line",
+            "foreground": "white",
+            "background": "#ff4000",
+            "gutterIcon": true,
+            "iconColour": "red",
+        },
+        "BUG": {
+            "type": "whole-line",
+            "foreground": "white",
+            "background": "red",
+            "gutterIcon": true,
+            "iconColour": "red",
+        },
+        "NOTE": {
+            "gutterIcon": true,
+            "icon": "note",
+            "iconColour": "yellow",
+        }
+    },
+    "todo-tree.general.tags": [
+        "TODO",
+        "FIXME",
+        "FIXIT",
+        "BUG",
+        "NOTE",
+        "INFO",
+    ],
+    "todo-tree.general.tagGroups": {
+        "TODO": [
+            "TODO",
+        ],
+        "FIXME": [
+            "FIXME",
+            "FIXIT",
+        ],
+        "BUG": [
+            "BUG",
+        ],
+        "NOTE": [
+            "NOTE",
+            "INFO",
+        ],
+    },
+    "files.associations": {
+        "unity.h": "c",
+        "zklib.h": "c",
+        "zk_container.h": "c",
+        "stdbool.h": "c",
+        "zk_slist.h": "c",
+        "*.tcc": "cpp",
+        "ostream": "cpp",
+        "iostream": "cpp"
+    },
+    "C_Cpp.default.compilerPath": "/usr/bin/gcc",
+    "cSpell.words": [
+        "slist"
+    ],
+    // "editor.formatOnSave": true,
+    // "files.associations": {
+    //     "*zk_container.h": "test"
+    // },
+    // "[test]": {
+    //     "editor.formatOnSave": false
+    // },
+
+}
